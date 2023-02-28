@@ -10,7 +10,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	tmtypes "github.com/celestiaorg/celestia-core/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/types/tx"
 	"github.com/spf13/viper"
@@ -30,6 +29,7 @@ import (
 	"github.com/tendermint/tendermint/state/txindex/kv"
 	"github.com/tendermint/tendermint/state/txindex/null"
 	"github.com/tendermint/tendermint/store"
+	tmtypes "github.com/tendermint/tendermint/types"
 
 	"github.com/forbole/juno/v4/node"
 	"github.com/forbole/juno/v4/types"
